@@ -1,6 +1,6 @@
 import { View, Text, FlatList } from 'react-native';
 import React from 'react';
-import { Transaccion } from '../src/modelos/Transaccion';
+import { Transaccion } from '../modelos/Transaccion';   // ← Ruta corregida
 
 export default function ListaTransacciones({ transacciones }: { transacciones: Transaccion[] }) {
   return (
